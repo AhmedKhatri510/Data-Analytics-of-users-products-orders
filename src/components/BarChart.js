@@ -134,9 +134,7 @@ export default function BarChart(props) {
     });
 
     const id_name = {};
-    const u_id = props.users.forEach(
-      (user) => (id_name[user.user_id] = user.name)
-    );
+    props.users.forEach((user) => (id_name[user.user_id] = user.name));
     const user_products_sp = {};
     props.orders.forEach((order) => {
       if (!user_products_sp[order.user_id]) {
