@@ -1,3 +1,7 @@
+# This App is analytics of data fetch from the API's 
+1. It shows some basic bar graph of fetched data.
+2. Made use of Chart.js library to show the graph.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
