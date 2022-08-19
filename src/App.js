@@ -6,12 +6,6 @@ function App() {
   const [users, setUsers] = useState([]);
   const [products, setProducts] = useState([]);
   const [orders, setOrders] = useState([]);
-  const [plot1XCoord, setPlot1XCoord] = useState([]);
-  const [plot1YCoord, setPlot1YCoord] = useState([]);
-  const [plot2XCoord, setPlot2XCoord] = useState([]);
-  const [plot2YCoord, setPlot2YCoord] = useState([]);
-  const [plot3XCoord, setPlot3XCoord] = useState([]);
-  const [plot3YCoord, setPlot3YCoord] = useState([]);
 
   useEffect(() => {
     fetching("https://assessment.api.vweb.app/users", setUsers);
